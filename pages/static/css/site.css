@@ -1,3 +1,40 @@
-body {font-family: system-ui, Arial, sans-serif; margin: 2rem; }
-nav a {margin-right: .75rem; text-decoration: none; }
 h1 {margin: 0 0 1rem; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #333;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
